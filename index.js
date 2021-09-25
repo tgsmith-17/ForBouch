@@ -1,4 +1,7 @@
-let getUser = prompt("Username:");
+// let getUser = prompt("Username:");
+
+// Delete below line after done testing
+let getUser = "tgsmith";
 
 let user = '';
 
@@ -19,9 +22,11 @@ else {
 }
 
 let showingUser = document.getElementById("user");
+let button = document.getElementsByTagName("button");
 
 if(user == "Dr. Bouchard") {
-showingUser.style.color = "chartreuse";
+    showingUser.style.color = "chartreuse";
+    button.style.color = "chartreuse";
 }
 
 showingUser.innerHTML = "Welcome, " + user;

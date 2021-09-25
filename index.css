@@ -1,9 +1,16 @@
 body {
-    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+
 h1 {
-    color: rgb(76, 211, 132);
+    padding-top: 20px;
+    color: rgb(41, 44, 223);
     padding-left: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    display: inline;
+    color: rgb(41, 44, 223);
+    padding: 15px;
 }
