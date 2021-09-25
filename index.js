@@ -1,7 +1,4 @@
-// let getUser = prompt("Username:");
-
-// Delete below line after done testing
-let getUser = "tgsmith";
+let getUser = prompt("Username:");
 
 let user = '';
 
