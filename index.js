@@ -22,7 +22,7 @@ else {
 }
 
 let showingUser = document.getElementById("user");
-let button = document.getElementsByTagName("button");
+let button = document.getElementById("button");
 let getFib = document.getElementById("changer");
 
 if(user == "Dr. Bouchard") {
@@ -32,3 +32,11 @@ if(user == "Dr. Bouchard") {
 
 showingUser.innerHTML = "Welcome, " + user;
 getFib.innerHTML = "What is it that I will do?";
+
+function changeName()
+{
+    let change = prompt("Change the text:");
+    getFib.innerHTML = change;
+}
+
+button.addEventListener("click", changeName);
