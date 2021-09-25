@@ -9,8 +9,11 @@ h1 {
     padding-left: 30px;
 }
 
+h2 {
+    padding-left: 30px;
+}
+
 button {
-    display: inline;
     color: rgb(41, 44, 223);
     padding: 15px;
 }
