@@ -32,7 +32,7 @@ getFib.innerHTML = "What is it that I will do?";
 
 function changeName()
 {
-    let change = prompt("Change the text:");
+    let change = prompt("See what it can do:");
     getFib.innerHTML = change;
 }
 
