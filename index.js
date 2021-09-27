@@ -21,6 +21,7 @@ else {
 let showingUser = document.getElementById("user");
 let button = document.getElementById("button");
 let getFib = document.getElementById("changer");
+let textBox = document.getElementById("grabber");
 
 if(user == "Dr. Bouchard") {
     showingUser.style.color = "chartreuse";
@@ -37,3 +38,8 @@ function changeName()
 }
 
 button.addEventListener("click", changeName);
+
+function Derivative(input)
+{
+    
+}
