@@ -1,4 +1,4 @@
-let getUser = prompt("Username:");
+let getUser = prompt("Username:\nHint: It's bouchard");
 
 let user = '';
 
@@ -27,7 +27,7 @@ let hiddenMessage = document.getElementById("for-bouch");
 if(user == "Dr. Bouchard") {
     showingUser.style.color = "chartreuse";
     button.style.color = "chartreuse";
-    hiddenMessage.innerHTML = "I made this chartreuse just for your profile\nRefresh and type in tgsmith instead"
+    hiddenMessage.innerHTML = "I made this chartreuse just for your 'profile'"
 }
 
 showingUser.innerHTML = "Welcome, " + user;
