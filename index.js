@@ -22,10 +22,12 @@ let showingUser = document.getElementById("user");
 let button = document.getElementById("button");
 let getFib = document.getElementById("changer");
 let textBox = document.getElementById("grabber");
+let hiddenMessage = document.getElementById("for-bouch");
 
 if(user == "Dr. Bouchard") {
     showingUser.style.color = "chartreuse";
     button.style.color = "chartreuse";
+    hiddenMessage.innerHTML = "I made this chartreuse just for your profile\nRefresh and type in tgsmith instead"
 }
 
 showingUser.innerHTML = "Welcome, " + user;
@@ -38,8 +40,3 @@ function changeName()
 }
 
 button.addEventListener("click", changeName);
-
-function Derivative(input)
-{
-    
-}
